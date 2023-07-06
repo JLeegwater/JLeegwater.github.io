@@ -1,0 +1,133 @@
+.sideBar_container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	height: 100vh;
+	width: 10%;
+	margin: 0;
+	position: sticky;
+	top: 0;
+	color: #00cab9;
+}
+
+.sideBar_logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.logo_link {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+.logo_link .letters {
+	font-size: 3rem;
+	text-decoration: none;
+	color: #000814;
+	background-color: #00cab9; /* Change this to the color you prefer */
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	transition: all 0.5s ease-out;
+}
+.logo_link .letters:hover {
+	color: #00cab9;
+	background-color: #0c1a1a;
+}
+
+.sideBar_logo h5 {
+	margin: 0;
+}
+.sideBar_nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-evenly;
+	color: #00cab9;
+	height: 35%;
+	border-bottom: 0.5px solid #00cab9;
+}
+
+.sideBar_container .link {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	align-items: center;
+	color: #00cab9;
+	height: 25%;
+	margin: 0;
+	border-top: 0.5px solid #00cab9;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.sideBar_nav p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #6acfc7 50%, #0c1a1a 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all 0.5s ease-out;
+}
+.sideBar_nav p:hover {
+	background-position: left bottom;
+	color: black;
+}
+
+.sideBar_media a {
+	text-decoration: none;
+	color: #00cab9;
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+
+@media (max-width: 1300px) {
+	.hamburger {
+		display: block;
+	}
+	.hamburger .active .bar:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger .active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger .active .bar:nth-child(1) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.sideBar_nav {
+		position: fixed;
+		left: -100%;
+		top: 70px;
+		gap: 0;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+	}
+	.sideBar_container {
+		display: none;
+	}
+}

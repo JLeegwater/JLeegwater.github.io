@@ -1,4 +1,74 @@
-.App {
+/* Reset browser defaults */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Apply basic styling and dark theme */
+body {
+	background-color: #1c1c1c;
+	color: #f5f5f5;
+	line-height: 1.6;
+}
+
+a {
+	color: #0053a0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00a8ff;
+}
+
+h1,
+h2,
+p {
+	margin-bottom: 20px;
+}
+
+/* Header */
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 2.5em;
+}
+
+header p {
+	font-size: 1.1em;
+}
+
+/* Section */
+section {
+	padding: 40px;
+}
+
+section h2 {
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+section img {
+	max-width: 100%;
+	display: block;
+	margin: 20px 0;
+}
+
+/* Footer */
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.9em;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +105,20 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+	background-color: #0c1a1a;
+	/* background-color: #000814; */
+
+	/* background-color: #283448; */
+	/* color: rgb(228, 209, 101); */
+	/* background-color: #003566; */
+	/* border: 1px solid red; */
+}
+
+.App {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
 }
