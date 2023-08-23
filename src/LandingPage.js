@@ -50,10 +50,13 @@ function LandingPage() {
 
 			<section>
 				<h2>Featured Project: Water My Plants V2</h2>
-				<img
+				{/* <img
 					src="water_my_plants_v2.jpg"
 					alt="Water My Plants V2 application screenshot"
-				/>
+				/> */}
+				<a href="https://github.com/ft-water-my-plants-5/back-end">
+					GitHub Repository
+				</a>
 				<p>
 					As a Backend Engineer, I designed and implemented the
 					Node/Express/PostgreSQL back-end and database for the Water My Plants
@@ -63,7 +66,7 @@ function LandingPage() {
 				</p>
 			</section>
 
-			<div className="image-container">
+			{/* <div className="image-container">
 				<div
 					className="background"
 					style={{ backgroundColor: backgroundColor }}
@@ -78,7 +81,7 @@ function LandingPage() {
 				type="color"
 				value={backgroundColor}
 				onChange={handleColorChange}
-			/>
+			/> */}
 
 			<footer>
 				<p>&copy; 2023 Jesse Leegwater. All rights reserved.</p>

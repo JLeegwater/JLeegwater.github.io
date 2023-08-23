@@ -1,0 +1,153 @@
+.skills_container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.skills_description {
+	display: flex;
+	color: #ffffff;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.skills_paragraph {
+	font-family: "Rubik";
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	margin-top: 50px;
+	line-height: 25px;
+	border-top: 1px dashed #ffffff;
+	border-bottom: 1px dashed #ffffff;
+	padding: 30px;
+}
+
+.skills_inside_par p {
+	margin: 10px;
+	font-size: 1.2rem;
+	color: #ffffff;
+}
+.skills_par_element {
+	margin: 0;
+	color: #ffffff;
+	font-size: 1rem;
+}
+.skills_title h1 {
+	font-weight: 200;
+}
+.skills_title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 1.8rem;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	animation: 1.5s fadeInUp;
+}
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.single_skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 0.5px solid #6acfc7;
+	width: 20%;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-mask-image: linear-gradient(
+		45deg,
+		#f0eaea 25%,
+		rgba(255, 255, 255, 0.046) 50%,
+		#faf2f2 75%
+	);
+	mask-image: linear-gradient(
+		45deg,
+		#faf2f2 25%,
+		rgba(255, 255, 255, 0.046) 50%,
+		#faf2f2 75%
+	);
+	-webkit-mask-size: 800%;
+	mask-size: 800%;
+	-webkit-mask-position: left;
+	mask-position: left;
+}
+.single_skill:hover {
+	transition: mask-position 2s ease, -webkit-mask-position 2s ease;
+	-webkit-mask-position: 120%;
+	mask-position: 120%;
+	opacity: 1;
+}
+
+.single_skill i {
+	font-size: 1.8rem;
+	color: #6acfc7;
+	margin: 5px;
+}
+
+.skill-icon {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.single_skill h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #6acfc7;
+	font-size: 2rem;
+	width: 100%;
+	height: 50%;
+	margin: 0;
+}
+
+@media (max-width: 850px) {
+	.progress {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.skills h3 {
+		width: 50%;
+	}
+}
+@media (max-width: 550px) {
+	.single_skill {
+		width: 40%;
+	}
+	.single_skill h4 {
+		font-size: 0.8rem;
+	}
+}
+@media (max-width: 420px) {
+	.skills_title {
+		font-size: 1rem;
+	}
+	.w3-light-grey {
+		height: 1.5vh;
+	}
+	.skills h3 {
+		font-size: 1rem;
+	}
+	.skills_paragraph p {
+		font-size: 1rem;
+	}
+	.single_skill {
+		width: 80%;
+	}
+}

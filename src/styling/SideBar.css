@@ -46,24 +46,19 @@
 	margin: 0;
 }
 .sideBar_nav {
-	display: flex;
-	flex-direction: column;
 	text-align: center;
 	justify-content: space-evenly;
 	color: #00cab9;
 	height: 35%;
-	border-bottom: 0.5px solid #00cab9;
 }
 
 .sideBar_container .link {
 	display: flex;
 	justify-content: center;
 	text-decoration: none;
-	align-items: center;
 	color: #00cab9;
 	height: 25%;
 	margin: 0;
-	border-top: 0.5px solid #00cab9;
 	font-size: 1rem;
 	font-weight: 700;
 }
@@ -78,6 +73,7 @@
 	background-size: 200% 100%;
 	background-position: right bottom;
 	transition: all 0.5s ease-out;
+	transform: scale(1);
 }
 .sideBar_nav p:hover {
 	background-position: left bottom;
