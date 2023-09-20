@@ -20,8 +20,8 @@ function SideBar() {
 				<Link className="link" to="/skills">
 					<p>Skills</p>
 				</Link>
-				<Link className="link" to="/work">
-					<p> Work</p>
+				<Link className="link" to="/projects">
+					<p>Projects</p>
 				</Link>
 				<Link className="link" to="/contact">
 					<p>Contact</p>

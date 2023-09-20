@@ -1,20 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styling/About.css";
-// import LoadingClip from "../widgets/LoadingClip";
 
-function About(props) {
-	const [loading, setLoading] = useState(false);
-
-	useEffect(() => {
-		setLoading(true);
-		setTimeout(() => {
-			setLoading(false);
-		}, 1000);
-		window.scrollTo(0, 0);
-	}, []);
-	// if (loading && !props.onLandingPage) return <LoadingClip />;
-	//else
+function About() {
 	return (
 		<div className="about_container">
 			<div className="about_title">

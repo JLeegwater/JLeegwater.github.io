@@ -130,9 +130,6 @@ html {
 		font-size: 0.8rem;
 	}
 }
-img {
-	filter: hue-rotate(0deg);
-}
 section img {
 	max-width: 100%;
 	display: block;
