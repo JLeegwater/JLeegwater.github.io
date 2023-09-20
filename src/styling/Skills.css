@@ -9,7 +9,6 @@
 	color: #ffffff;
 	flex-direction: column;
 	width: 100%;
-	height: 100%;
 }
 .skills_paragraph {
 	font-family: "Rubik";
@@ -63,7 +62,7 @@
 	flex-direction: column;
 	align-items: center;
 	border: 0.5px solid #6acfc7;
-	width: 20%;
+	width: 10%;
 	margin: 10px;
 	padding: 5px;
 	border-radius: 5px;
