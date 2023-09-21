@@ -10,7 +10,10 @@ function Projects() {
 				<div className="singleProject">
 					<div className="img_container">
 						<a href="https://github.com/JLeegwater/WabbaBot">
-							<img src={`${process.env.PUBLIC_URL}/images/WabbaBot.png`} />
+							<img
+								alt="example of bot"
+								src={`${process.env.PUBLIC_URL}/images/WabbaBot.png`}
+							/>
 						</a>
 					</div>
 					<a
