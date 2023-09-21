@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 //import { Link } from "react-router-dom";
 import "./styling/LandingPage.css";
 // import About from "./components/About";
@@ -18,11 +18,11 @@ function LandingPage() {
 	// 	window.scrollTo(0, 0);
 	// }, []);
 
-	const [backgroundColor, setBackgroundColor] = useState("#FF0000"); // Initial color: red
+	// const [backgroundColor, setBackgroundColor] = useState("#FF0000"); // Initial color: red
 
-	const handleColorChange = (event) => {
-		setBackgroundColor(event.target.value);
-	};
+	// const handleColorChange = (event) => {
+	// 	setBackgroundColor(event.target.value);
+	// };
 
 	// if (loading) return <LoadingClip />;
 
