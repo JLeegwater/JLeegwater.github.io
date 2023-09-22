@@ -3,7 +3,7 @@ import "./App.css";
 import SideBar from "./components/SideBar";
 import { Route, Routes } from "react-router-dom";
 import NavBarPopUp from "./widgets/NavBarPopUp";
-import LandingPage from "./LandingPage";
+import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
