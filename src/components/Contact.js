@@ -27,10 +27,12 @@ function Contact(props) {
 		} else {
 			emailjs
 				.sendForm(
+					// cSpell:disable
 					"service_lsw2gq6",
 					"template_nswk7pa",
 					formRef.current,
 					"DP2Ljjg-Q8mQEUyhi"
+					// cSpell:enable
 				)
 				.then(
 					(result) => {
@@ -128,7 +130,12 @@ function Contact(props) {
 				src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
 			></script>
 			<script type="text/javascript">
-				(function(){emailjs.init("DP2Ljjg-Q8mQEUyhi")})();
+				(function()
+				{
+					/* cspell:disable-next-line */
+					emailjs.init("DP2Ljjg-Q8mQEUyhi")
+				}
+				)();
 			</script>
 		</div>
 	);
