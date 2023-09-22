@@ -1,6 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
-import "./styling/LandingPage.css";
+import "../styling/LandingPage.css";
 // import About from "./components/About";
 // import Skills from "./components/Skills";
 // import Work from "./components/Work";
