@@ -9,6 +9,32 @@ function Projects() {
 				</div>
 				<div className="singleProject">
 					<div className="img_container">
+						<a href="https://github.com/JLeegwater/n-queens">
+							<img
+								alt="example of game"
+								src={`${process.env.PUBLIC_URL}/images/8queens.netlify.app_.png`}
+							/>
+						</a>
+					</div>
+					<a
+						className="projects_title"
+						href="https://github.com/JLeegwater/n-queens"
+					>
+						N-Queens
+					</a>
+					<a className="Deployed" href="https://8queens.netlify.app/">
+						Deployed
+					</a>
+
+					<p>
+						A next.js web application that lets the user try to solve the
+						N-Queens problem. The user can interact with the chessboard to place
+						queens.
+					</p>
+				</div>
+
+				<div className="singleProject">
+					<div className="img_container">
 						<a href="https://github.com/JLeegwater/WabbaBot">
 							<img
 								alt="example of bot"
